@@ -1,0 +1,23 @@
+Package: euribor.historical.data
+Type: Package
+Title: EURIBOR rates EMMI historical data compilation
+Version: 0.1.0
+Author: Artur Wegrzyn
+Maintainer: Artur Wegrzyn <awegrzyn17@gmail.com>
+Description: This package contains EURIBOR daily rates data compiled by the author
+    based on the XLS files provided on the EMMI website.
+    The author does not own the data. 
+    The only contribution of this package is provision of the data in the R format for the 
+    ease of use.
+    The scope of the data: daily quotes 1998-12-30 through 2021-07-14.
+    Rates are provided for the following tenors: 1 week, 1 month, 3 months, 
+    6 months, 12 months. 
+    View the docs of the dtEuribor data.table for links to the data source.
+License: MIT License
+Encoding: UTF-8
+LazyData: true
+Imports:
+    data.table
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.1.1
